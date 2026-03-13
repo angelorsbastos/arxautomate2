@@ -55,7 +55,7 @@ const Home = () => {
   useEffect(() => {
     initGA(); // só uma vez, ao carregar o app
   }, []);
-  
+
   useEffect(() => {
     sendPageView(location.pathname + location.search); // sempre que muda de página
   }, [location]);

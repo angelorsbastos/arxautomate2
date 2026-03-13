@@ -48,31 +48,31 @@ const Services = () => {
         </div>
         <div className="flex flex-col gap-12">
           {/* First Card - Left */}
-          <div 
-            className="w-full md:w-2/3 lg:w-1/2 reveal service-card rounded-2xl p-1" 
+          <div
+            className="w-full md:w-2/3 lg:w-1/2 reveal service-card rounded-2xl p-1"
             onClick={() => navigate('/customer-support-ai')}
           >
             <AIAgentCard />
           </div>
 
           {/* Second Card - Right */}
-          <div 
-            className="w-full md:w-2/3 lg:w-1/2 ml-auto reveal service-card rounded-2xl p-1" 
+          <div
+            className="w-full md:w-2/3 lg:w-1/2 ml-auto reveal service-card rounded-2xl p-1"
             onClick={() => navigate('/ai-outreach')}
           >
             <OutreachCard onClick={() => navigate('/ai-outreach')} />
           </div>
 
           {/* Third Card - Left */}
-          <div 
-            className="w-full md:w-2/3 lg:w-1/2 reveal service-card rounded-2xl p-1" 
+          <div
+            className="w-full md:w-2/3 lg:w-1/2 reveal service-card rounded-2xl p-1"
           >
             <AppDevelopmentCard />
           </div>
 
           {/* Fourth Card - Right */}
-          <div 
-            className="w-full md:w-2/3 lg:w-1/2 ml-auto reveal service-card rounded-2xl p-1" 
+          <div
+            className="w-full md:w-2/3 lg:w-1/2 ml-auto reveal service-card rounded-2xl p-1"
           >
             <CustomAutomationCard />
           </div>

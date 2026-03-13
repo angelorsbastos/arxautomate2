@@ -1,10 +1,10 @@
-import { 
-  Phone, 
-  ClipboardCheck, 
-  Rocket, 
-  Code2, 
+import {
+  Phone,
+  ClipboardCheck,
+  Rocket,
+  Code2,
   Crosshair,
-  Handshake 
+  Handshake
 } from 'lucide-react';
 import SectionTitle from './SectionTitle';
 import { useThemeStore } from '../store/useThemeStore';
@@ -85,17 +85,15 @@ const ProcessSection = () => {
           {/* Process Steps */}
           <div className="relative space-y-24 sm:space-y-16">
             {processes.map((process, index) => (
-              <div 
+              <div
                 key={index}
-                className={`flex flex-col sm:flex-row items-center gap-8 ${
-                  index % 2 === 0 ? 'sm:flex-row' : 'sm:flex-row-reverse'
-                } reveal`}
+                className={`flex flex-col sm:flex-row items-center gap-8 ${index % 2 === 0 ? 'sm:flex-row' : 'sm:flex-row-reverse'
+                  } reveal`}
               >
                 {/* Content */}
                 <div className={`w-full sm:w-1/2 text-center sm:text-${index % 2 === 0 ? 'right' : 'left'}`}>
-                  <div className={`inline-flex items-center gap-4 mb-4 justify-center sm:justify-start ${
-                    index % 2 === 0 ? 'sm:flex-row-reverse' : 'sm:flex-row'
-                  }`}>
+                  <div className={`inline-flex items-center gap-4 mb-4 justify-center sm:justify-start ${index % 2 === 0 ? 'sm:flex-row-reverse' : 'sm:flex-row'
+                    }`}>
                     <div className="p-3 bg-gradient-to-br from-[#FF6A00]/20 to-[#f9d342]/20 rounded-lg transform hover:scale-110 transition-all duration-300">
                       {process.icon}
                     </div>
@@ -123,7 +121,7 @@ const ProcessSection = () => {
         </div>
 
         <div className="mt-16 text-center reveal">
-          <button 
+          <button
             onClick={scrollToContact}
             className="group relative bg-gradient-to-r from-[#FF6A00] to-[#f9d342] text-black px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-[0_0_25px_#f9d342] overflow-hidden"
           >

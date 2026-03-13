@@ -12,7 +12,7 @@ const Testimonials = () => {
         <div className="text-center mb-16 reveal">
           <h1 className={`text-5xl md:text-7xl font-bold mb-4 ${isDark ? 'text-white' : 'text-gray-900'}`}>
             <div className="md:hidden">
-              <span className="gradient-text"><em>Real&nbsp;</em></span> Results,  
+              <span className="gradient-text"><em>Real&nbsp;</em></span> Results,
               <span className="gradient-text"><em> Real&nbsp;</em></span> Clients
             </div>
             <div className="hidden md:block">
@@ -37,11 +37,11 @@ const Testimonials = () => {
           <div className={`max-w-lg ${isDark ? 'bg-black shadow-xl' : 'bg-white shadow-xl'} p-8 rounded-2xl reveal hover:scale-105 transition-transform duration-300 feature-card ${isDark ? 'border-gray-800' : 'border-gray-200'} border`}>
             <div className="flex gap-1 mb-4">
               {[...Array(5)].map((_, i) => (
-                <Star 
-                  key={i} 
-                  className="w-5 h-5" 
-                  fill={isDark ? '#FFFFFF' : '#FFA100'} 
-                  color={isDark ? '#FFFFFF' : '#FFA100'} 
+                <Star
+                  key={i}
+                  className="w-5 h-5"
+                  fill={isDark ? '#FFFFFF' : '#FFA100'}
+                  color={isDark ? '#FFFFFF' : '#FFA100'}
                 />
               ))}
             </div>
@@ -50,9 +50,9 @@ const Testimonials = () => {
             </p>
             <div>
               <p className="font-semibold gradient-text">
-                <a 
-                  href="https://www.avbx.pt" 
-                  target="_blank" 
+                <a
+                  href="https://www.avbx.pt"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="no-underline text-inherit transition-opacity"
                 >
